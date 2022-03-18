@@ -1,0 +1,93 @@
+#Creating my Pythagon Empire Algorithm
+
+#Welcome message
+print("You are Welcome to Pythagon Empire")
+
+print("My name is Shakirullahi Akinyele Akindiipo.\n I am the Chairman of Pythagon Empire ")
+
+
+#The client responds
+name = input()
+
+print("Thank you very much,my name is {name}.")
+
+print("How may We be of Help")
+
+print("I am here for "Business Proposal","Personal Visit",or "Educational Trip" ")
+
+choice1 = Business Proposal
+choice2 = Personal Visit
+choice3 = Educational Trip
+
+knock = input()
+Wait = input()
+business = input()
+#Condition for Business Proposal
+if choice1:
+    print("Go to the Second floor,there you will see the admin's office by the left wing in room 201\n Please knock on the door")
+    
+#Knock on the door to get a response
+    
+    if knock==Yes:
+        print("Please Come in")
+
+#Enter to discuss about Business Proposal
+        if business==Yes:
+            print("Sign Contract Agreement")
+        elif business==No:
+            print("Please leave!")
+        else:
+            print("Invalid response!,Please Enter a Valid response")
+#No response on Knock
+
+    elif knock==No:
+        print("Wait outside")
+
+        if Wait==Yes:
+            print("Please sit down and wait for the admin")
+        elif Wait==No:
+            print("Game Over!")
+        else:
+            print("Invalid response!,Please Enter a Valid response")
+
+#Condition for Personal Visit
+elif choice2:
+    print("Go to the office of the Person you are visiting and Knock")
+
+#Knock on the door to get a response
+
+    if knock==Yes:
+        print("Please Enter")
+    
+    elif knock==No:
+        print("Wait outside")
+
+        if Wait==Yes:
+            print("Please sit down and wait for the Person you are here to Visit")
+        elif Wait==No:
+            print("You can take your leave")
+        else:
+            print("Invalid response!,Please Enter a Valid response")
+
+#Condition for Educational Trip
+elif choice3:
+    print("Go to the Educational Counsellor's office and Knock")
+
+     if knock==Yes:
+        print("Please Enter")
+    
+    elif knock==No:
+        print("Wait outside")
+
+        if Wait==Yes:
+            print("Please sit down and wait for the Educational Counsellor")
+        elif Wait==No:
+            print("You can take your leave")
+        else:
+            print("Invalid response!,Please Enter a Valid response")
+
+#Condition for an Invalid input
+else:
+    print("Enter a Valid Input")
+
+
