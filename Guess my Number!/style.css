@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  text-align: center;
+  background-color: rgb(32, 147, 108);
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.between {
+  text-align: right;
+}
+.again {
+  background-color: rgb(93, 47, 30);
+  font-size: 16px;
+
+  border-radius: 20%;
+  float: left;
+  display: inline-block;
+}
+.again:hover {
+  background-color: aqua;
+  color: black;
+}
+.number {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+  margin: auto;
+}
+hr {
+  line-height: normal;
+}
+.guess {
+  height: 50px;
+  width: 30%;
+  border-radius: 10px;
+}
